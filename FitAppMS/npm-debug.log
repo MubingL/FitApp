@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'app.js' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/liuye/FitApp/FitAppMS/package.json
+5 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/body-parser/package.json
+6 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/cookie-parser/package.json
+7 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/debug/package.json
+8 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/ejs/package.json
+9 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/morgan/package.json
+11 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/oauth/package.json
+12 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/serve-favicon/package.json
+13 verbose installManyTop reading scoped package data from /Users/liuye/FitApp/FitAppMS/node_modules/simple-oauth2/package.json
+14 info package.json oauth@0.9.14 No license field.
+15 info package.json simple-oauth2@0.2.1 No license field.
+16 verbose readDependencies loading dependencies from /Users/liuye/FitApp/FitAppMS/package.json
+17 silly cache add args [ 'app.js', null ]
+18 verbose cache add spec app.js
+19 silly cache add parsed spec { raw: 'app.js',
+19 silly cache add   scope: null,
+19 silly cache add   name: null,
+19 silly cache add   rawSpec: 'app.js',
+19 silly cache add   spec: '/Users/liuye/FitApp/FitAppMS/app.js',
+19 silly cache add   type: 'local' }
+20 silly addLocalTarball shasum (computed) af7a5b0b5fd1808622859c32ebe16cc0a2d7c091
+21 verbose addTmpTarball /Users/liuye/FitApp/FitAppMS/app.js not in flight; adding
+22 verbose addTmpTarball validating metadata from /Users/liuye/FitApp/FitAppMS/app.js
+23 verbose tar unpack /Users/liuye/FitApp/FitAppMS/app.js
+24 verbose tar unpacking to /var/folders/5t/8sn55zss61jfchxwp73btkrc0000gn/T/npm-30585-a97c2ad1/unpack-f194a7058698
+25 silly gentlyRm /var/folders/5t/8sn55zss61jfchxwp73btkrc0000gn/T/npm-30585-a97c2ad1/unpack-f194a7058698 is being purged
+26 verbose gentlyRm don't care about contents; nuking /var/folders/5t/8sn55zss61jfchxwp73btkrc0000gn/T/npm-30585-a97c2ad1/unpack-f194a7058698
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 error not a package /Users/liuye/FitApp/FitAppMS/app.js
+29 error addLocal Could not install /Users/liuye/FitApp/FitAppMS/app.js
+30 verbose stack Error: ENOENT, open '/var/folders/5t/8sn55zss61jfchxwp73btkrc0000gn/T/npm-30585-a97c2ad1/unpack-f194a7058698/package.json'
+30 verbose stack     at Error (native)
+31 verbose cwd /Users/liuye/FitApp/FitAppMS
+32 error Darwin 14.5.0
+33 error argv "node" "/usr/local/bin/npm" "install" "app.js"
+34 error node v0.12.7
+35 error npm  v2.11.3
+36 error path /var/folders/5t/8sn55zss61jfchxwp73btkrc0000gn/T/npm-30585-a97c2ad1/unpack-f194a7058698/package.json
+37 error code ENOENT
+38 error errno -2
+39 error enoent ENOENT, open '/var/folders/5t/8sn55zss61jfchxwp73btkrc0000gn/T/npm-30585-a97c2ad1/unpack-f194a7058698/package.json'
+39 error enoent This is most likely not a problem with npm itself
+39 error enoent and is related to npm not being able to find a file.
+40 verbose exit [ -2, true ]
